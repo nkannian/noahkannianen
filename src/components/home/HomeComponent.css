@@ -1,0 +1,13 @@
+.MainDiv {
+  text-align: center;
+}
+
+.MainDivContent {
+
+  color: black;
+  position: absolute;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}

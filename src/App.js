@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
-import ParticlesBg from 'particles-bg';
+import createHistory from 'history/createBrowserHistory';
+import { Router, Route } from 'react-router-dom';
+import HomeComponent from './components/home';
+export const history = createHistory();
 
 function App() {
   return (
-    <div className="App">
-        <ParticlesBg num={10} type="circle" bg={true} />
-    </div>
+    <Router history={history}>
+      <div className="App-container">
+        <Route exact path="/" component={HomeComponent} />
+      </div>
+    </Router>
   );
 }
 
