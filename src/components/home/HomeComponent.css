@@ -1,13 +1,25 @@
 .MainDiv {
-  text-align: center;
+    text-align: center;
 }
 
 .MainDivContent {
+    color: white;
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(0,0,0,.7);
+    width: 20%;
+    height: 20%;
+}
 
-  color: black;
-  position: absolute;
-  float: left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
+.MainDivLinks {
+    color: lightblue;
+}
+
+.PageBottom {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
 }
