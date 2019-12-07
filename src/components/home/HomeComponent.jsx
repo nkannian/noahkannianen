@@ -10,10 +10,10 @@ class HomeComponent extends React.Component {
             <ParticlesBg num={10} type="circle" bg={true} />
             <div className="MainDiv">
                 <div className="MainDivContent">
-                    <h3>Noah Kannianen</h3>
-                    <a href="/JuniorResume5.pdf" download className="MainDivLinks">Static Resume Download</a>
                     <br/>
-                    <a href="/aboutme" className="MainDivLinks">Dynamic Resume</a>
+                    <h3>Noah Kannianen's Resume Website</h3>
+                    <a href="/JuniorResume5.pdf" download className="MainDivLinks">Static Resume Download</a>
+                    <br/>&nbsp;
                 </div>
             </div>
             <div className="PageBottom">
