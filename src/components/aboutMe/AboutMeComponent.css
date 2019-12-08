@@ -1,0 +1,26 @@
+.aboutMeDiv {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.aboutMeContent {
+    display: inline-block;
+    background: rgba(0,0,0,.80);
+    width: 90%
+}
+
+.professionalImage {
+    float: left;
+    margin: 1%;
+}
+
+.aboutMeHeader {
+    color: white;
+}
+
+.aboutMeText {
+    color: white;
+    margin: 10px;
+    text-align: left;
+}
