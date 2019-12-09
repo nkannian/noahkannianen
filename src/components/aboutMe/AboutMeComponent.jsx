@@ -33,7 +33,7 @@ class AboutMeComponent extends React.Component {
                     I am pursuing a Bachelor's of Science in Computer Science.
                     My computer science tracks are Security, Database and Information Systems, Software Engineering, and Machine Intelligence.
                     I am also pursuing a minor in business economics and mathematics.
-                    My current overall GPA is 3.77 out and my computer science GPA is 3.84 (4.00 scale for both).
+                    My current overall GPA is 3.77 out of 4.00.
                 </div>
                 <h1 className="aboutMeHeader">
                     Activities
