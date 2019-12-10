@@ -84,7 +84,7 @@ class SkillsComponent extends React.Component {
                                 <Card.Title>React.js</Card.Title>
                                 <Card.Text align="left">
                                     Proficiency: Advanced<br/>
-                                    School Projects:&emsp;
+                                    School Projects:&nbsp;
                                     <a href="https://songscore.online/" target="_blank" rel="noopener noreferrer">Songscore</a>,&nbsp;
                                     <a href="http://teambuilder2019frontend.herokuapp.com/" target="_blank" rel="noopener noreferrer">TeamBuilder</a>,&nbsp;
                                     <a href="https://www.youtube.com/watch?v=kcq-Cje-xjs" target="_blank" rel="noopener noreferrer">Seven Heaven</a>
