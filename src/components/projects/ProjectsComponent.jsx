@@ -5,8 +5,10 @@ import './ProjectsComponent.css';
 class ProjectsComponent extends React.Component {
     render() {
         return (
-        <div>
-            
+        <div className="projectsDiv">
+            <div className="projectsContent">
+                
+            </div>
         </div>
         )
     }
