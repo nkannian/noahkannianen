@@ -1,0 +1,21 @@
+.skillsDiv {
+    text-align: center;
+}
+
+.skillsContent {
+    display: inline-block;
+    background: rgba(0,0,0,.80);
+    width: 90%;
+}
+
+.skillsBody {
+    margin: 3%
+}
+
+.skillsHeader {
+    color: white;
+}
+
+.placeholderCard {
+    visibility: hidden;
+}
