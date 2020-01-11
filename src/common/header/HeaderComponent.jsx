@@ -3,7 +3,7 @@ import './HeaderComponent.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-class HomeComponent extends React.Component {
+class HeaderComponent extends React.Component {
     render() {
         return (
             <div>
@@ -23,4 +23,4 @@ class HomeComponent extends React.Component {
         }
     }
     
-export default HomeComponent;
+export default HeaderComponent;
