@@ -91,6 +91,7 @@ class SkillsComponent extends React.Component {
                                     <br/>
                                     Large Projects:&nbsp;
                                     <a href="https://github.com/nkannian/awlonus/" target="_blank" rel="noopener noreferrer">Awl, on us</a><br/>
+                                    <a href="https://whatyouon.online/" target="_blank" rel="noopener noreferrer">What you on?</a><br/>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -109,7 +110,7 @@ class SkillsComponent extends React.Component {
                                 <Card.Title>Node.js</Card.Title>
                                 <Card.Text align="left">
                                     Proficiency: Advanced<br/>
-                                    Projects: Grapevine, Songscore, TeamBuilder, Seven Heaven<br/>
+                                    Projects: Grapevine, Songscore, TeamBuilder, Seven Heaven, What you on?<br/>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -147,6 +148,20 @@ class SkillsComponent extends React.Component {
                         </Card>
                     </CardDeck>
                     <br />
+                    <CardDeck>
+                        <Card className="placeholderCard"style={{ width: '18rem' }}></Card>
+                        <Card bg="light"style={{ width: '18rem' }}>
+                            <Card.Body>
+                                <Card.Title>NoSQL</Card.Title>
+                                <Card.Text align="left">
+                                    Proficiency: Basic<br/>
+                                    Large Projects: What You On?<br/>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="placeholderCard"style={{ width: '18rem' }}></Card>
+                    </CardDeck>
+                    <br />
                     <h1 className="skillsHeader">Development and hosting</h1>
                     <CardDeck>
                         <Card bg="light"style={{ width: '18rem' }}>
@@ -179,7 +194,15 @@ class SkillsComponent extends React.Component {
                     </CardDeck>
                     <br />
                     <CardDeck>
-                    <Card className="placeholderCard"style={{ width: '18rem' }}></Card>
+                        <Card bg="light"style={{ width: '18rem' }}>
+                            <Card.Body>
+                                <Card.Title>Firebase</Card.Title>
+                                <Card.Text align="left">
+                                    Proficiency: Intermediate<br/>
+                                    Projects: Awl on us, What you on?<br/>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                         <Card bg="light"style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title>Scrum</Card.Title>
@@ -196,6 +219,19 @@ class SkillsComponent extends React.Component {
                                 <Card.Text align="left">
                                     Proficiency: Intermediate<br/>
                                     Projects: Grapevine<br/>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </CardDeck>
+                    <br />
+                    <CardDeck>
+                        <Card className="placeholderCard"style={{ width: '18rem' }}></Card>
+                        <Card bg="light"style={{ width: '18rem' }}>
+                            <Card.Body>
+                                <Card.Title>Google Cloud Funcitons</Card.Title>
+                                <Card.Text align="left">
+                                    Proficiency: Intermediate<br/>
+                                    Large Projects: What You On?<br/>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

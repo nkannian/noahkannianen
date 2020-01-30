@@ -63,11 +63,25 @@ class AboutMeComponent extends React.Component {
                     </div>
                     <br/>
                     <h5>Purdue IEE Computer Society</h5>
-                    During my sophomore year of college, I was also a part of&nbsp;
+                    <div>During my sophomore year of college, I was also a part of&nbsp;
                     <a href="https://purdueieee.org/csociety/">Purdue Institute of Electrical and Electronics Engineers Computer Society</a>.
                     In my time in this club, we worked on a machine learning project. 
                     The project that we pursued was a machine learning algorithm to recognize basic hand gestures.
                     This, in addition to SIGAI was a very enriching learning experience for me as an intro to Python and machine learning.
+                    </div>
+                    <br/>
+                    <h5>Boilermake Hackathon</h5>
+                    <div>During my junior year of college, I particapated in the&nbsp;
+                    <a href="https://boilermake.org/">Boilermake Hackathon.</a>
+                    In this hackathon, I worked with one other person to build a web application.
+                    We wrote it with a Node.js backend hosted with google cloud functions, 
+                    React.js frontend hosted on firebase, and a NoSQL databse hosted on MongoDB
+                    The website we build was essentially a social media calendar application that can be 
+                    used to assist with scheduling events with friends and teams.
+                    The application can be found&nbsp;
+                    <a href="https://whatyouon.online/">here</a>.
+                    We are currently working to continue to develop this application and add more features.
+                    </div>
                 </div>
             </div>
         </div>
