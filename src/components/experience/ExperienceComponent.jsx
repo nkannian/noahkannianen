@@ -8,6 +8,16 @@ class ExperienceComponent extends React.Component {
         <div className="experienceDiv">
             <div className="experienceContent">
                 <h1 className="experienceHeader">Relevant Experience</h1>
+                <h6 className="experienceSubHeader">Software Development and Quality Assurance Intern -&nbsp;
+                    <a href="http://denizentech.com/" target="_blank" rel="noopener noreferrer">
+                        Denizen Technology
+                    </a>
+                </h6>
+                <div className="experienceBody">
+                    Period of employment: May 2020 - Current&nbsp;
+                    <br />
+                    Job Functions: Work on legacy C++ and current C# polygraph software. Create test plans for biweekly builds of the current C# software and fixes to customer reported issues on the legacy software, solve bugs on both pieces of software, and implement new features in the current software.
+                </div>
                 <h6 className="experienceSubHeader">Software Engineering Intern -&nbsp;
                     <a href="http://canaley.com/" target="_blank" rel="noopener noreferrer">
                         Canaley Process Equipment
@@ -30,13 +40,13 @@ class ExperienceComponent extends React.Component {
                 </div>
                 <h6 className="experienceSubHeader">Student Athlete Tutor - Purdue University</h6>
                 <div className="experienceBody">
-                    Period of employment: August 2019 - Present&nbsp;
+                    Period of employment: August 2019 - August 2020&nbsp;
                     <br />
                     Job Functions: Tutor six Purdue University athletes in Problem Solving and Object-Oriented Programming, Data Structures And Algorithms, Introduction to Statistics, and Microeconomics.
                 </div>
                 <h6 className="experienceSubHeader">Freshmen Tools Teaching Assistant - Purdue University</h6>
                 <div className="experienceBody">
-                    Period of employment: August 2019 - Present&nbsp;
+                    Period of employment: August 2019 - May 2020&nbsp;
                     <br />
                     Job Functions: Lead Practice Study Observation classes one day a week to help students retain the material they learned in the lecture. 
                     I also grade student homework assignments.

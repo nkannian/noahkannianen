@@ -12,7 +12,7 @@ class HomeComponent extends React.Component {
                 <div className="MainDivContent">
                     <br/>
                     <h3>Noah Kannianen's Resume Website</h3>
-                    <a href="/JuniorResume.pdf" download className="MainDivLinks">Static Resume Download</a>
+                    <a href="/SeniorResume.pdf" download className="MainDivLinks">Static Resume Download</a>
                     <br/>&nbsp;
                 </div>
             </div>
