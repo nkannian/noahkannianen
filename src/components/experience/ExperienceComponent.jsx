@@ -44,6 +44,13 @@ class ExperienceComponent extends React.Component {
                     <br />
                     Job Functions: Tutor six Purdue University athletes in Problem Solving and Object-Oriented Programming, Data Structures And Algorithms, Introduction to Statistics, and Microeconomics.
                 </div>
+                <h6 className="experienceSubHeader">Programming in C Teaching Assistant - Purdue University</h6>
+                <div className="experienceBody">
+                    Period of employment: January 2020 - Current&nbsp;
+                    <br />
+                    Job Functions: Help lead lab sections to answer
+                    student questions as well as grade homework to enforce the course coding standards.
+                </div>
                 <h6 className="experienceSubHeader">Freshmen Tools Teaching Assistant - Purdue University</h6>
                 <div className="experienceBody">
                     Period of employment: August 2019 - May 2020&nbsp;

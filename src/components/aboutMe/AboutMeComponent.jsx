@@ -28,11 +28,11 @@ class AboutMeComponent extends React.Component {
                     Academics
                 </h1>
                 <div className="aboutMeText">
-                    I am currently a junior studying computer science at Purdue University. 
+                    I am currently a senior studying computer science at Purdue University. 
                     I am working toward a Bachelor's of Science in Computer Science.
                     My computer science tracks are Security, Database and Information Systems, Software Engineering, and Machine Intelligence.
                     I am also pursuing a minor in business economics and mathematics.
-                    My current overall GPA is 3.77 out of 4.00.
+                    My current overall GPA is 3.76 out of 4.00.
                 </div>
                 <h1 className="aboutMeHeader">
                     Activities

@@ -37,7 +37,8 @@ class SkillsComponent extends React.Component {
                                 <Card.Text align="left">
                                     Proficiency: Intermediate<br/>
                                     Classes: Programming in C<br/>
-                                    School Projects: Chat server
+                                    School Project: Chat server<br/>
+                                    Large Project: Maintaining and debugging <a href="https://lafayettepolygraph.com/products/lxsoftware" target="_blank" rel="noopener noreferrer">LXSoftware</a>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -75,6 +76,20 @@ class SkillsComponent extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                    </CardDeck>
+                    <br/>
+                    <CardDeck>
+                        <Card className="placeholderCard"style={{ width: '18rem' }}></Card>
+                        <Card bg="light"style={{ width: '18rem' }}>
+                            <Card.Body>
+                                <Card.Title>C#</Card.Title>
+                                <Card.Text align="left">
+                                    Proficiency: Intermediate<br/>
+                                    Large Project: Developing LXEdge, the new software taking the place of LXSoftware as seen in C++ section<br/>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="placeholderCard"style={{ width: '18rem' }}></Card>
                     </CardDeck>
                     <br />
                     <h1 className="skillsHeader">Javascript Libraries</h1>
@@ -228,15 +243,47 @@ class SkillsComponent extends React.Component {
                         <Card className="placeholderCard"style={{ width: '18rem' }}></Card>
                         <Card bg="light"style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title>Google Cloud Funcitons</Card.Title>
+                                <Card.Title>Google Cloud Functions</Card.Title>
                                 <Card.Text align="left">
                                     Proficiency: Intermediate<br/>
-                                    Large Projects: What You On?<br/>
+                                    Large Projects: Initial iteration of What You On?<br/>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card className="placeholderCard"style={{ width: '18rem' }}></Card>
                     </CardDeck>
+                    <br/>
+                    <h1 className="skillsHeader">Testing</h1>
+                    <CardDeck>
+                        <Card bg="light"style={{ width: '18rem' }}>
+                            <Card.Body>
+                                <Card.Title>Enzyme and Jest</Card.Title>
+                                <Card.Text align="left">
+                                    Proficiency: Intermediate<br/>
+                                    School Projects: TeamBuilder, Songscore<br/>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card bg="light"style={{ width: '18rem' }}>
+                            <Card.Body>
+                                <Card.Title>Mocha and Chai</Card.Title>
+                                <Card.Text align="left">
+                                    Proficiency: Intermediate<br/>
+                                    School Projects: TeamBuilder, Songscore<br/>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card bg="light"style={{ width: '18rem' }}>
+                            <Card.Body>
+                                <Card.Title>Xunit</Card.Title>
+                                <Card.Text align="left">
+                                    Proficiency: Intermediate<br/>
+                                    Large Projects: Developing the testing suite for LXEdge as mentioned in the C# section<br/>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </CardDeck>
+                    <br/>
                     <h1 className="skillsHeader">Other Skills</h1>
                     <CardDeck>
                         <Card bg="light"style={{ width: '18rem' }}>
